@@ -1,0 +1,227 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image: url("../images/backgrounds/retina_wood_@2X.png");
+    background-repeat: repeat;
+    color: #777777;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -96px;
+}
+
+h1, h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 20px;
+}
+
+p {
+    size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.2em;
+}
+
+#copyright {
+    color: #cccccc;
+    font-size: 12px;
+    margin: 30px;
+}
+
+a, a:active, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777777;
+    text-decoration: underline;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 15px 0 15px 0;
+}
+
+.header {
+    background-color: #ffffff;
+    overflow: auto;
+    padding-left: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.name {
+    background-color: #4aaaa5;
+    margin: 0;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    width: 140px;
+    float: left;
+}
+
+.nav-links {
+    background-color: #ffffff;
+    padding: 22px 30px 20px 30px;
+    float: right;
+}
+
+.nav-separator {
+    color: #dddddd;
+    margin-left: 18px;
+    margin-right: 15px;
+}
+
+.content-container {
+    margin-left: 30px;
+    border-top: 2px solid #cccccc;
+    overflow: hidden;
+}
+
+.content {
+    max-width: 660px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.footer {
+    height: 90px;
+    margin: 0 auto;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+}
+
+.push {
+    height: 100px;
+}
+
+.portrait {
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio-item {
+    position: relative;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item-text {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 244px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px;
+    transform: translate(-50%, 50%);
+}
+
+.contactForm {
+    width: 590px;
+}
+
+@media only screen and (max-width: 980px) {
+    .content {
+        width: 660px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: 590px;
+        padding-right: 70px;
+    }
+    .content-container {
+        /* margin-left: 15px; */
+    }
+    .header {
+        /* padding-left: 15px; */
+    }
+    .portrait {
+        width: 300px;
+        height: 300px;
+    }
+    .contactForm {
+        width: 590px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .content {
+        margin-top: 15px;
+        margin-left: 15px;
+        max-width: 550px;
+    }
+    .content-container {
+        margin: 0;
+        margin-left: 0;
+        max-width: none;
+    }
+    .header {
+        position: static;
+        padding-left: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .name {
+        width: 100%;
+        padding: none;
+    }
+    .nav-links {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .portrait {
+        float: none;
+        width: 550px;
+        height: 550px;
+    }
+    .contactForm {
+        width: 530px;
+    }
+    .portfolio-photo {
+        width: 540px;
+    }
+    .portfolio-item {
+        float: none;
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+    .portfolio-item-text {
+        width: 480px;
+        padding: 30px;
+        top: 380px;
+    }
+}
